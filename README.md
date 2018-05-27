@@ -37,7 +37,7 @@ export default {
 ### Props
 
 * `background`: Add background image for the spotlight
-* `position`: Background image
+* `position`: Background image cover position
 
 ## Contributing
 
