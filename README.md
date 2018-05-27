@@ -4,6 +4,8 @@
 
 * 🔦 Tiny reusable Spotlight component for your Vue App
 
+- Demo Link - [Click Here](http://bit.ly/v-spotlight)
+
 - This is [on GitHub](https://github.com/vinayakkulkarni/v-spotlight) so let me know if I've b0rked it somewhere, give me a star :star: if you like it :beers:
 
 ## Install
