@@ -1,7 +1,7 @@
 {
   "name": "v-spotlight",
   "description": "Tiny reusable Spotlight component for your Vue App",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "author": {
     "name": "Vinayak Kulkarni",
     "email": "vinayak.kulkarni@live.com",
@@ -13,7 +13,9 @@
   "unpkg": "dist/v-spotlight.js",
   "jsdelivr": "dist/v-spotlight.js",
   "cdn": "dist/v-spotlight.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "vuejs",
     "spotlight",
