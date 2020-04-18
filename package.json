@@ -57,7 +57,7 @@
     "karma-spec-reporter": "^0.0.32",
     "phantomjs-prebuilt": "^2.1.16",
     "prettier": "^2.0.4",
-    "rollup": "^0.59.4",
+    "rollup": "^2.6.1",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-uglify": "^4.0.0",
     "rollup-plugin-vue": "^4.3.1",
