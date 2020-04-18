@@ -1,7 +1,7 @@
 module.exports = {
   presets: [
     [
-      'env',
+      '@babel/preset-env',
       {
         modules: false,
         targets: {
@@ -11,31 +11,4 @@ module.exports = {
     ],
   ],
   comments: false,
-  env: {
-    test: {
-      plugins: [
-        [
-          'module-resolver',
-          {
-            root: ['./'],
-            alias: {
-              '@': './src',
-              '~': './src',
-            },
-          },
-        ],
-      ],
-      ignore: ['ava.config.js'],
-      presets: [
-        [
-          'env',
-          {
-            targets: {
-              node: 'current',
-            },
-          },
-        ],
-      ],
-    },
-  },
 };
