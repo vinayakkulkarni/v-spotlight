@@ -54,7 +54,7 @@
     "eslint-config-vue": "^2.0.2",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
-    "husky": "^7.0.0",
+    "husky": "^8.0.3",
     "jasmine-core": "^4.0.0",
     "karma": "^6.0.1",
     "karma-browserify": "^8.0.0",
