@@ -1,3 +1,12 @@
+## [2.0.1](https://github.com/vinayakkulkarni/v-spotlight/compare/v2.0.0...v2.0.1) (2023-11-10)
+
+
+### Bug Fixes
+
+* exports for css ([c82e8c3](https://github.com/vinayakkulkarni/v-spotlight/commit/c82e8c3b089986dbb59ee5f555040fca6be04194))
+
+
+
 # [2.0.0](https://github.com/vinayakkulkarni/v-spotlight/compare/v1.1.0...v2.0.0) (2023-11-10)
 
 
