@@ -12,7 +12,8 @@
     ".": {
       "import": "./dist/v-spotlight.js",
       "require": "./dist/v-spotlight.umd.js"
-    }
+    },
+    "./dist/v-spotlight.css": "./dist/v-spotlight.css"
   },
   "files": [
     "dist"
