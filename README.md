@@ -6,8 +6,8 @@
 <a title="GitHub Release" href="https://github.com/vinayakkulkarni/v-spotlight/releases" rel="nofollow">
   <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/vinayakkulkarni/v-spotlight?include_prereleases&logo=github">
 </a>
-<a title="CI Status" href="https://github.com/vinayakkulkarni/v-spotlight/actions?query=workflow%3Aci" rel="nofollow">
-  <img alt="Total alerts" src="https://github.com/vinayakkulkarni/v-spotlight/workflows/ci/badge.svg">
+<a title="CI Status" href="https://github.com/vinayakkulkarni/v-spotlight/actions/workflows/ci.yml" rel="nofollow">
+  <img alt="CI Status" src="https://github.com/vinayakkulkarni/v-spotlight/actions/workflows/ci.yml/badge.svg">
 </a>
 <a title="DeepScan Grade" href="https://deepscan.io/dashboard#view=project&tid=9055&pid=25872&bid=815803">
   <img src="https://deepscan.io/api/teams/9055/projects/25872/branches/815803/badge/grade.svg" alt="DeepScan grade">
