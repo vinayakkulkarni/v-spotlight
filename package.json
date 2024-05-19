@@ -4,23 +4,27 @@
   "description": "Tiny reusable Spotlight component for your Vue App",
   "main": "./dist/v-spotlight.js",
   "module": "./dist/v-spotlight.js",
-  "umd": "./dist/v-spotlight.umd.js",
-  "unpkg": "./dist/v-spotlight.mjs",
-  "jsdelivr": "./dist/v-spotlight.mjs",
+  "umd": "./dist/v-spotlight.umd.cjs",
+  "unpkg": "./dist/v-spotlight.cjs",
+  "jsdelivr": "./dist/v-spotlight.cjs",
   "cdn": "./dist/v-spotlight.min.js",
   "exports": {
     ".": {
       "import": "./dist/v-spotlight.js",
-      "require": "./dist/v-spotlight.umd.js"
+      "require": "./dist/v-spotlight.umd.cjs"
     },
-    "./dist/v-spotlight.css": "./dist/v-spotlight.css"
+    "./dist/v-spotlight.css": {
+      "import": "./dist/v-spotlight.css",
+      "require": "./dist/v-spotlight.css"
+    }
   },
   "files": [
     "dist"
   ],
   "types": "./dist/index.d.ts",
+  "type": "module",
   "scripts": {
-    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly && prettier --write dist/*{mjs,js,ts}",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly && prettier --write dist/*{cjs,js,ts}",
     "test": "echo 'test!'",
     "prepare": "is-ci || husky",
     "lint": "npm run lint:prettier && npm run lint:eslint && npm run lint:css",
@@ -85,7 +89,9 @@
     "url": "git+https://github.com/vinayakkulkarni/v-spotlight.git"
   },
   "private": false,
-  "sideEffects": false,
+  "sideEffects": [
+    "*.css"
+  ],
   "bugs": {
     "url": "https://github.com/vinayakkulkarni/v-spotlight/issues"
   },
