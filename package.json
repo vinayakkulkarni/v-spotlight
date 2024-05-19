@@ -1,6 +1,6 @@
 {
   "name": "v-spotlight",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Tiny reusable Spotlight component for your Vue App",
   "main": "./dist/v-spotlight.js",
   "module": "./dist/v-spotlight.js",
