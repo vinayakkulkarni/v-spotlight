@@ -12,28 +12,23 @@ jobs:
       run:
         working-directory: './example/'
     steps:
-      - name: Checkout 🛎️
+      - name: Check out repository 🎉
         uses: actions/checkout@v4
         with:
           persist-credentials: false
 
-      - name: Setup node env 📦
-        uses: actions/setup-node@v3
-        with:
-          node-version: 'current'
-          check-latest: true
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
+      - name: Setup bun env 🐰
+        uses: oven-sh/setup-bun@v1
 
       - name: Install dependencies 🚀
-        run: npm ci --prefer-offline --no-audit --omit=optional
+        run: bun install
 
       - name: Run build 🏁
-        run: npm run build
+        run: bun run build
 
       - name: Deploy to GitHub Pages 🚀
         uses: peaceiris/actions-gh-pages@v4.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./example/dist
-          cname: v-offline.netlify.app
+          cname: v-spotlight.netlify.app
