@@ -19,7 +19,7 @@
     "typescript": "^5.4.5",
     "vite": "^5.2.12",
     "vite-plugin-windicss": "^1.9.3",
-    "vue-tsc": "^2.0.19",
+    "vue-tsc": "^2.0.22",
     "windicss": "^3.5.6"
   }
 }
