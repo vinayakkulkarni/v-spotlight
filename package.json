@@ -48,7 +48,7 @@
     "@typescript-eslint/parser": "^7.11.0",
     "@vinayakkulkarni/prettier-config-vue": "^1.0.0",
     "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/runtime-dom": "^3.4.27",
+    "@vue/runtime-dom": "^3.5.13",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jsdoc": "^48.2.7",
