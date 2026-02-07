@@ -29,10 +29,7 @@
       ]
     },
     "types": [
-      "@types/node",
-      "@vitejs/plugin-vue",
-      "vite",
-      "vue"
+      "@types/node"
     ]
   },
   "include": [
