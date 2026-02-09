@@ -1,6 +1,6 @@
 {
   "name": "v-spotlight",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "description": "Tiny reusable Spotlight component for your Vue App",
   "exports": {
     ".": {
