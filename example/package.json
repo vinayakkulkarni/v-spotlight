@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "v-github-icon": "^3.2.2",
+    "v-github-icon": "^3.3.0",
     "v-spotlight": "^2.1.0",
     "vue": "^3.4.34"
   },
