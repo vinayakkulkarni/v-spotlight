@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "lib": [
       "esnext",
       "dom",
@@ -11,6 +11,7 @@
       "esnext.asynciterable"
     ],
     "outDir": "./dist",
+    "rootDir": "./src",
     "esModuleInterop": true,
     "allowJs": true,
     "sourceMap": true,
@@ -18,16 +19,6 @@
     "noEmit": false,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "experimentalDecorators": true,
-    "baseUrl": ".",
-    "paths": {
-      "~/*": [
-        "./*"
-      ],
-      "@/*": [
-        "./src/*"
-      ]
-    },
     "types": [
       "@types/node"
     ]
