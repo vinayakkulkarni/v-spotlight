@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "v-github-icon": "^3.3.0",
-    "v-spotlight": "^2.1.0",
+    "v-spotlight": "^3.0.0",
     "vue": "^3.5.31"
   },
   "devDependencies": {
