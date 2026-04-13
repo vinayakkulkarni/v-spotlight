@@ -29,7 +29,7 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "@tsdown/css": "^0.21.7",
+    "@tsdown/css": "^0.21.8",
     "@types/node": "^25.5.0",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/runtime-dom": "^3.5.31",
@@ -40,7 +40,7 @@
     "typescript": "^6.0.2",
     "unplugin-vue": "^7.1.1",
     "vite": "^8.0.3",
-    "vite-plus": "^0.1.14",
+    "vite-plus": "^0.1.16",
     "vue": "^3.5.31",
     "vue-tsc": "^3.2.6"
   },
