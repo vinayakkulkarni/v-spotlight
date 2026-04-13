@@ -30,7 +30,7 @@
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
     "@tsdown/css": "^0.21.7",
-    "@types/node": "^25.5.0",
+    "@types/node": "^25.6.0",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/runtime-dom": "^3.5.31",
     "husky": "latest",
