@@ -19,15 +19,8 @@
     "noEmit": false,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "types": [
-      "@types/node"
-    ]
+    "types": ["@types/node"]
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

@@ -25,8 +25,7 @@
   <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vinayakkulkarni/v-spotlight">
 </a>
 
-
-* 🔦 Tiny reusable Spotlight component for your Vue App
+- 🔦 Tiny reusable Spotlight component for your Vue App
 
 ## Table of Contents
 
