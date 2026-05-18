@@ -1,29 +1,12 @@
 # V-Spotlight 💡
 
-<a title="npm" href="https://www.npmjs.com/package/v-spotlight" rel="nofollow">
-  <img alt="npm" src="https://img.shields.io/npm/v/v-spotlight?label=npm%40latest&logo=npm">
-</a>
-<a title="GitHub Release" href="https://github.com/vinayakkulkarni/v-spotlight/releases" rel="nofollow">
-  <img alt="GitHub release (latest by date including pre-releases)" src="https://img.shields.io/github/v/release/vinayakkulkarni/v-spotlight?include_prereleases&logo=github">
-</a>
-<a title="CI Status" href="https://github.com/vinayakkulkarni/v-spotlight/actions/workflows/ci.yml" rel="nofollow">
-  <img alt="CI Status" src="https://github.com/vinayakkulkarni/v-spotlight/actions/workflows/ci.yml/badge.svg">
-</a>
-<a title="DeepScan Grade" href="https://deepscan.io/dashboard#view=project&tid=9055&pid=25872&bid=815803">
-  <img src="https://deepscan.io/api/teams/9055/projects/25872/branches/815803/badge/grade.svg" alt="DeepScan grade">
-</a>
-<a title="downloads" href="http://npm-stat.com/charts.html?package=v-spotlight" rel="nofollow">
-  <img alt="npm" src="https://img.shields.io/npm/dm/v-spotlight">
-</a>
-<a title="deploy" href="https://github.com/algolia/shipjs" rel="nofollow">
-  <img src="https://img.shields.io/badge/deploy-🛳%20Ship.js-blue?style=flat" />
-</a>
-<a title="Last Commit" href="https://github.com/vinayakkulkarni/v-spotlight/commits/main" rel="nofollow">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vinayakkulkarni/v-spotlight">
-</a>
-<a title="Contributors" href="https://github.com/vinayakkulkarni/v-spotlight/graphs/contributors" rel="nofollow">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/vinayakkulkarni/v-spotlight">
-</a>
+[![npm](https://img.shields.io/npm/v/v-spotlight?label=npm%40latest&logo=npm)](https://www.npmjs.com/package/v-spotlight)
+[![GitHub Release](https://img.shields.io/github/v/release/vinayakkulkarni/v-spotlight?include_prereleases&logo=github)](https://github.com/vinayakkulkarni/v-spotlight/releases)
+[![downloads](https://img.shields.io/npm/dm/v-spotlight)](http://npm-stat.com/charts.html?package=v-spotlight)
+[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-spotlight/pipeline.yml?logo=github-actions)](https://github.com/vinayakkulkarni/v-spotlight/actions/workflows/pipeline.yml)
+[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-spotlight/dev/vite-plus?logo=vite)](https://github.com/voidzero-dev/vite-plus)
+[![GitHub last commit](https://img.shields.io/github/last-commit/vinayakkulkarni/v-spotlight)](https://github.com/vinayakkulkarni/v-spotlight/commits/main)
+[![GitHub contributors](https://img.shields.io/github/contributors/vinayakkulkarni/v-spotlight)](https://github.com/vinayakkulkarni/v-spotlight/graphs/contributors)
 
 - 🔦 Tiny reusable Spotlight component for your Vue App
 
