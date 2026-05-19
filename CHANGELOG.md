@@ -37,6 +37,39 @@
 
 
 
+## [3.0.1](https://github.com/vinayakkulkarni/v-spotlight/compare/v-spotlight-v3.0.0...v-spotlight-v3.0.1) (2026-05-19)
+
+
+### Bug Fixes
+
+* **deps:** bump actions/setup-node from 4 to 6 ([994f8b6](https://github.com/vinayakkulkarni/v-spotlight/commit/994f8b6d6f6c2fb3e62d74fb072059420e676ffa))
+* **deps:** bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 ([9405b4c](https://github.com/vinayakkulkarni/v-spotlight/commit/9405b4c34c2d7c8572afc1932f7608aed4c97e0e))
+* **deps:** bump dependabot/fetch-metadata from 2.5.0 to 3.0.0 ([9a96e41](https://github.com/vinayakkulkarni/v-spotlight/commit/9a96e417bf6dc1ded9cb286ec50a74de897a2d0e))
+* **deps:** bump the actions-minor group across 1 directory with 2 updates ([#1223](https://github.com/vinayakkulkarni/v-spotlight/issues/1223)) ([67c2150](https://github.com/vinayakkulkarni/v-spotlight/commit/67c215037228bd80270d8672614a498649d64671))
+* **deps:** update v-github-icon requirement from ^3.2.2 to ^3.3.0 in /example ([16d976f](https://github.com/vinayakkulkarni/v-spotlight/commit/16d976f34a5f3191e0012614d35dac10c92fc20d))
+* **deps:** update v-github-icon requirement in /example ([55b4550](https://github.com/vinayakkulkarni/v-spotlight/commit/55b4550fde0a4743e6d3ffb1f38ba84d749e9de7))
+* **deps:** update vue requirement from ^3.4.34 to ^3.5.31 in /example ([72a60a9](https://github.com/vinayakkulkarni/v-spotlight/commit/72a60a9f61aa7f3d536f6ebbbcbf076600d52cb1))
+* **deps:** update vue requirement from ^3.4.34 to ^3.5.31 in /example ([5c203bb](https://github.com/vinayakkulkarni/v-spotlight/commit/5c203bb1ade048b2268cc9e84b42b7be61f698c2))
+
+
+### Miscellaneous
+
+* align husky+lint-staged, update deps, format repo-wide ([d9650d2](https://github.com/vinayakkulkarni/v-spotlight/commit/d9650d292294ddce885c816e71f5ad7ae62a0cff))
+* clean pre-vite-plus leftovers ([e213857](https://github.com/vinayakkulkarni/v-spotlight/commit/e2138570656036d45ffc28d85b82186b2ad1fecd))
+* **deps-dev:** bump the npm-development group with 3 updates ([#1225](https://github.com/vinayakkulkarni/v-spotlight/issues/1225)) ([6bd1699](https://github.com/vinayakkulkarni/v-spotlight/commit/6bd1699ac4e5ab9da41bcd962975d99b5e74b30c))
+* **deps-dev:** bump vue-tsc from 2.2.12 to 3.2.6 in /example ([b871220](https://github.com/vinayakkulkarni/v-spotlight/commit/b8712201e07d82905363c68db954fc9a15b3ad85))
+* **deps-dev:** bump vue-tsc from 2.2.12 to 3.2.6 in /example ([11cdfed](https://github.com/vinayakkulkarni/v-spotlight/commit/11cdfed0336b04a8d84c527b5b0bff8aaac42185))
+* **deps-dev:** update sass requirement from ^1.77.8 to ^1.98.0 in /example ([f7f26de](https://github.com/vinayakkulkarni/v-spotlight/commit/f7f26de69130d9c1e59ed43e67da07f9c08cd9d3))
+* **deps-dev:** update sass requirement in /example ([f90ae42](https://github.com/vinayakkulkarni/v-spotlight/commit/f90ae42ab8e7e3c63d9085c83afc820859f82815))
+* **deps:** bump all npm dependencies to latest via taze -l -w ([fa62b90](https://github.com/vinayakkulkarni/v-spotlight/commit/fa62b90b23c2d780215e010370b0e8e22456c0af))
+* drop redundant vite tooling deps, update example deps ([fc93d48](https://github.com/vinayakkulkarni/v-spotlight/commit/fc93d48ce8aa78ce7e13ace491882401ec449de2))
+* **example:** migrate to tailwindcss v4, upgrade typescript to 6.x ([168f3d3](https://github.com/vinayakkulkarni/v-spotlight/commit/168f3d3ea26efc9106964c7fd5618adb5b17ba06))
+* **example:** migrate to tailwindcss v4, upgrade typescript to 6.x ([4565a48](https://github.com/vinayakkulkarni/v-spotlight/commit/4565a485e952753fbb80e6bc2f34370f350baec0))
+* **example:** upgrade tsconfig for TypeScript 6.x ([ed4f731](https://github.com/vinayakkulkarni/v-spotlight/commit/ed4f7311b68bdf52feaa34d536e7f717c01ae962))
+* migrate from bun to pnpm 11 with vite+ ([98eff21](https://github.com/vinayakkulkarni/v-spotlight/commit/98eff21141d62d3931e05b36076ddb15e922c42f))
+* pin deps, inline oxlint config, wire JSR publish, remove orphaned files ([cc65526](https://github.com/vinayakkulkarni/v-spotlight/commit/cc655263350ad70cd7133f3d91318bc58fcbb8ca))
+* update dependencies and fix tsconfig for TypeScript 6.0 ([a004bc5](https://github.com/vinayakkulkarni/v-spotlight/commit/a004bc577f256bdc008630a1ad9c9cd654ac19d3))
+
 ## [3.0.0](https://github.com/vinayakkulkarni/v-spotlight/compare/v-spotlight-v2.1.0...v-spotlight-v3.0.0) (2026-02-07)
 
 
