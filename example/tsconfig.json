@@ -5,14 +5,14 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "strict": true,
-    "ignoreDeprecations": "6.0",
     "jsx": "preserve",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
-    "noEmit": true
+    "noEmit": true,
+    "resolvePackageJsonExports": false
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [
