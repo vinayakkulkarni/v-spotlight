@@ -5,6 +5,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "strict": true,
+    "ignoreDeprecations": "6.0",
     "jsx": "preserve",
     "resolveJsonModule": true,
     "isolatedModules": true,
