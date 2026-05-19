@@ -2,7 +2,7 @@
   "name": "v-spotlight",
   "version": "3.0.0",
   "private": false,
-  "description": "Tiny reusable Spotlight component for your Vue App",
+  "description": "Vue 3 spotlight overlay component for product tours, feature highlights, onboarding flows, and contextual walkthroughs. TypeScript ESM.",
   "keywords": [
     "UI",
     "UX",

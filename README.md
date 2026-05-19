@@ -1,12 +1,22 @@
 # V-Spotlight 💡
 
-[![npm](https://img.shields.io/npm/v/v-spotlight?label=npm%40latest&logo=npm)](https://www.npmjs.com/package/v-spotlight)
-[![GitHub Release](https://img.shields.io/github/v/release/vinayakkulkarni/v-spotlight?include_prereleases&logo=github)](https://github.com/vinayakkulkarni/v-spotlight/releases)
-[![downloads](https://img.shields.io/npm/dm/v-spotlight)](http://npm-stat.com/charts.html?package=v-spotlight)
-[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-spotlight/pipeline.yml?logo=github-actions)](https://github.com/vinayakkulkarni/v-spotlight/actions/workflows/pipeline.yml)
-[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-spotlight/dev/vite-plus?logo=vite)](https://github.com/voidzero-dev/vite-plus)
-[![GitHub last commit](https://img.shields.io/github/last-commit/vinayakkulkarni/v-spotlight)](https://github.com/vinayakkulkarni/v-spotlight/commits/main)
-[![GitHub contributors](https://img.shields.io/github/contributors/vinayakkulkarni/v-spotlight)](https://github.com/vinayakkulkarni/v-spotlight/graphs/contributors)
+<!-- Badges -->
+
+[![Pipeline](https://img.shields.io/github/actions/workflow/status/vinayakkulkarni/v-spotlight/pipeline.yml?branch=main&logo=github-actions&label=pipeline)](https://github.com/vinayakkulkarni/v-spotlight/actions/workflows/pipeline.yml)
+[![GitHub release](https://img.shields.io/github/v/release/vinayakkulkarni/v-spotlight?sort=semver&logo=github&label=release)](https://github.com/vinayakkulkarni/v-spotlight/releases)
+[![npm](https://img.shields.io/npm/v/v-spotlight?logo=npm&label=npm)](https://www.npmjs.com/package/v-spotlight)
+[![JSR](https://img.shields.io/jsr/v/@vinayakkulkarni/v-spotlight?logo=jsr&label=jsr)](https://jsr.io/@vinayakkulkarni/v-spotlight)
+[![npm downloads](https://img.shields.io/npm/dm/v-spotlight?logo=npm&label=downloads)](http://npm-stat.com/charts.html?package=v-spotlight)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/v-spotlight?label=size)](https://bundlephobia.com/package/v-spotlight@latest)
+[![types](https://img.shields.io/npm/types/v-spotlight?logo=typescript&label=types)](https://github.com/vinayakkulkarni/v-spotlight/blob/main/package.json)
+[![License](https://img.shields.io/github/license/vinayakkulkarni/v-spotlight?logo=github&label=license)](./LICENSE)
+
+[![vite-plus](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-spotlight/dev/vite-plus?logo=vite&label=vite-plus)](https://github.com/voidzero-dev/vite-plus)
+[![typescript](https://img.shields.io/github/package-json/dependency-version/vinayakkulkarni/v-spotlight/dev/typescript?logo=TypeScript&label=typescript)](https://www.typescriptlang.org/)
+[![pnpm](https://img.shields.io/github/package-json/packageManager/vinayakkulkarni/v-spotlight?label=pnpm&logo=pnpm)](https://pnpm.io/)
+[![node](https://img.shields.io/node/v/v-spotlight?logo=node.js&label=node)](https://nodejs.org/)
+
+<!-- End Badges -->
 
 - 🔦 Tiny reusable Spotlight component for your Vue App
 
@@ -34,7 +44,7 @@
 ### Installation
 
 ```sh
-npm install --save v-spotlight
+pnpm add v-spotlight
 ```
 
 CDN: [UNPKG](https://unpkg.com/v-spotlight/dist/) | [jsDelivr](https://cdn.jsdelivr.net/npm/v-spotlight/dist/) (available as `window.VSpotlight`)
@@ -43,10 +53,10 @@ CDN: [UNPKG](https://unpkg.com/v-spotlight/dist/) | [jsDelivr](https://cdn.jsdel
 
 ```bash
 # install dependencies
-$ npm install
+$ pnpm install
 
 # package the library
-$ npm run build
+$ pnpm run build
 ```
 
 ### Usage

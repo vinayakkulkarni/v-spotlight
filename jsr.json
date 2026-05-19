@@ -6,5 +6,6 @@
     "exclude": [
       "!dist"
     ]
-  }
+  },
+  "description": "Vue 3 spotlight overlay component for product tours, feature highlights, onboarding flows, and contextual walkthroughs. TypeScript ESM."
 }
