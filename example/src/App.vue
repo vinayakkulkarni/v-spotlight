@@ -25,5 +25,5 @@
 
 <style>
   @import 'v-github-icon/dist/v-github-icon.css';
-  @import 'v-spotlight/dist/v-spotlight.css';
+  @import 'v-spotlight/dist/index.css';
 </style>
