@@ -4,3 +4,18 @@ packages:
 allowBuilds:
   '@parcel/watcher': true
   esbuild: true
+  workerd: true
+
+minimumReleaseAgeExclude:
+  - vite-plus
+  - '@voidzero-dev/*'
+  - tsdown
+  - '@tsdown/*'
+  - wrangler
+  - miniflare
+  - workerd
+  - '@cloudflare/*'
+  - vue
+  - '@vue/*'
+  - '@types/*'
+  - '@commitlint/*'

@@ -42,7 +42,7 @@ v-spotlight/
 | Package Mgr | pnpm                              |
 | Git Hooks   | Husky + lint-staged + commitlint  |
 | Release     | release-please                    |
-| Node        | 24                                |
+| Node        | 26                                |
 
 ---
 
@@ -54,8 +54,14 @@ pnpm run lint:fix      # vp lint --fix
 pnpm run format        # vp fmt
 pnpm run format:check  # vp fmt --check
 pnpm run build         # vp pack (tsdown + dts)
-pnpm run test          # Tests
+pnpm run typecheck     # vue-tsc (library + example)
+pnpm run test          # vp test run (happy-dom)
+pnpm run demo:dev      # Vite dev server for example/
+pnpm run demo:build    # Library + demo build into example/dist
+pnpm run deploy        # Build demo + wrangler deploy (Worker v-spotlight-demo)
 ```
+
+The demo (`example/`) deploys as a static-assets Cloudflare Worker (`wrangler.jsonc`) to https://v-spotlight.vinayakkulkarni.dev.
 
 ---
 
