@@ -1,30 +1,60 @@
 @import 'tailwindcss';
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-  color-scheme: light dark;
-  color: rgb(255 255 255 / 87%);
-  background-color: #242424;
-  font-synthesis: none;
-  text-rendering: optimizelegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-size-adjust: 100%;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: 'Satoshi', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'Cascadia Code', monospace;
+
+  --color-canvas: oklch(0.965 0.012 85);
+  --color-surface: oklch(0.995 0.004 85);
+  --color-sunken: oklch(0.93 0.014 85);
+  --color-ink: oklch(0.2 0.008 270);
+  --color-muted: oklch(0.46 0.01 270);
+  --color-line: oklch(0.86 0.012 85);
+  --color-signal: oklch(0.6 0.17 60);
+  --color-signal-ink: oklch(0.99 0.01 85);
 }
 
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  place-content: center;
-  min-width: 100vw;
-  min-height: 100vh;
-}
+@layer base {
+  .dark {
+    --color-canvas: oklch(0.17 0.006 270);
+    --color-surface: oklch(0.21 0.007 270);
+    --color-sunken: oklch(0.13 0.005 270);
+    --color-ink: oklch(0.95 0.006 85);
+    --color-muted: oklch(0.72 0.01 270);
+    --color-line: oklch(0.3 0.008 270);
+    --color-signal: oklch(0.8 0.15 75);
+    --color-signal-ink: oklch(0.18 0.02 60);
+  }
 
-#app {
-  width: 100vw;
-  height: 100vh;
+  html {
+    color-scheme: light;
+    background-color: var(--color-canvas);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+  }
+
+  html.dark {
+    color-scheme: dark;
+  }
+
+  html,
+  body {
+    margin: 0;
+    overflow: hidden;
+    overscroll-behavior: none;
+  }
+
+  ::selection {
+    background-color: var(--color-signal);
+    color: var(--color-signal-ink);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-signal);
+    outline-offset: 2px;
+  }
 }

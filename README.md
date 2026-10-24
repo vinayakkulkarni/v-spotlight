@@ -36,6 +36,8 @@
 
 ## Demo
 
+Live demo: [v-spotlight.vinayakkulkarni.dev](https://v-spotlight.vinayakkulkarni.dev)
+
 [![Edit v-spotlight demo](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/v-spotlight?file=src/App.vue)
 
 ## Requirements
@@ -58,6 +60,12 @@ $ pnpm install
 
 # package the library
 $ pnpm run build
+
+# run the demo locally
+$ pnpm run demo:dev
+
+# build and deploy the demo to Cloudflare Workers
+$ pnpm run deploy
 ```
 
 ### Usage
@@ -132,7 +140,7 @@ export default {
   });
 </script>
 <style>
-  @import 'v-spotlight/dist/v-spotlight.css';
+  @import 'v-spotlight/dist/index.css';
 </style>
 ```
 
