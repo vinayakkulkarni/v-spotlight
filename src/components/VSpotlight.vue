@@ -2,37 +2,37 @@
   import { ref, onMounted, onUnmounted } from 'vue';
 
   const SIZE = 'transparent 160px, rgba(0, 0, 0, 0.9) 200px)';
+  const PRESSED_SIZE = 'transparent 130px, rgba(0, 0, 0, 0.95) 150px)';
 
   const spotlight = ref<HTMLElement | null>(null);
   const spotlightSize = ref(SIZE);
 
+  const onMouseMove = (e: MouseEvent) => {
+    updateSpotlight(e);
+  };
+
+  const onMouseDown = (e: MouseEvent) => {
+    if (e.button === 0) {
+      spotlightSize.value = PRESSED_SIZE;
+      updateSpotlight(e);
+    }
+  };
+
+  const onMouseUp = (e: MouseEvent) => {
+    spotlightSize.value = SIZE;
+    updateSpotlight(e);
+  };
+
   onMounted(() => {
-    window.addEventListener('mousemove', (e) => {
-      updateSpotlight(e);
-    });
-    window.addEventListener('mousedown', (e) => {
-      if (e.button === 0) {
-        spotlightSize.value = 'transparent 130px, rgba(0, 0, 0, 0.95) 150px)';
-        updateSpotlight(e);
-      }
-    });
-    window.addEventListener('mouseup', (e) => {
-      spotlightSize.value = SIZE;
-      updateSpotlight(e);
-    });
+    window.addEventListener('mousemove', onMouseMove);
+    window.addEventListener('mousedown', onMouseDown);
+    window.addEventListener('mouseup', onMouseUp);
   });
 
   onUnmounted(() => {
-    window.removeEventListener('mousemove', (e) => {
-      updateSpotlight(e);
-    });
-    window.removeEventListener('mousedown', (e) => {
-      updateSpotlight(e);
-    });
-    window.removeEventListener('mouseup', (e) => {
-      spotlightSize.value = SIZE;
-      updateSpotlight(e);
-    });
+    window.removeEventListener('mousemove', onMouseMove);
+    window.removeEventListener('mousedown', onMouseDown);
+    window.removeEventListener('mouseup', onMouseUp);
   });
 
   const updateSpotlight = (e: MouseEvent) => {
