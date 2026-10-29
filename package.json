@@ -1,6 +1,6 @@
 {
   "name": "v-spotlight",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "private": false,
   "description": "Vue 3 spotlight overlay component for product tours, feature highlights, onboarding flows, and contextual walkthroughs. TypeScript ESM.",
   "keywords": [

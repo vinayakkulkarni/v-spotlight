@@ -37,6 +37,13 @@
 
 
 
+## [3.0.2](https://github.com/vinayakkulkarni/v-spotlight/compare/v3.0.1...v3.0.2) (2026-10-29)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump wrangler ([#1261](https://github.com/vinayakkulkarni/v-spotlight/issues/1261)) ([69b5482](https://github.com/vinayakkulkarni/v-spotlight/commit/69b54829e2182d8612aea53f3c5d699e41169972))
+
 ## [3.0.1](https://github.com/vinayakkulkarni/v-spotlight/compare/v3.0.0...v3.0.1) (2026-10-28)
 
 
