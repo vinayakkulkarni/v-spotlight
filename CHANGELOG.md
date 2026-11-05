@@ -37,6 +37,17 @@
 
 
 
+## [3.0.2](https://github.com/vinayakkulkarni/v-spotlight/compare/v3.0.1...v3.0.2) (2026-11-05)
+
+
+### Miscellaneous
+
+* **deps-dev:** bump the npm-development group with 2 updates ([#1264](https://github.com/vinayakkulkarni/v-spotlight/issues/1264)) ([6069aa4](https://github.com/vinayakkulkarni/v-spotlight/commit/6069aa4a0568eb8c365f621c7a97076a29536342))
+* **deps-dev:** bump the npm-development group with 4 updates ([#1263](https://github.com/vinayakkulkarni/v-spotlight/issues/1263)) ([bf29deb](https://github.com/vinayakkulkarni/v-spotlight/commit/bf29deb1e401c6adc83d9b6373885069a612c653))
+* **deps-dev:** bump vue-tsc in /example in the npm-development group ([#1265](https://github.com/vinayakkulkarni/v-spotlight/issues/1265)) ([4c26b64](https://github.com/vinayakkulkarni/v-spotlight/commit/4c26b64111f6a84d3c4f62198c8f3882006ad7c0))
+* **deps-dev:** bump wrangler ([#1261](https://github.com/vinayakkulkarni/v-spotlight/issues/1261)) ([69b5482](https://github.com/vinayakkulkarni/v-spotlight/commit/69b54829e2182d8612aea53f3c5d699e41169972))
+* **deps-dev:** bump wrangler ([#1266](https://github.com/vinayakkulkarni/v-spotlight/issues/1266)) ([6405be6](https://github.com/vinayakkulkarni/v-spotlight/commit/6405be6bf70729309818bacb419233eb48248fed))
+
 ## [3.0.1](https://github.com/vinayakkulkarni/v-spotlight/compare/v3.0.0...v3.0.1) (2026-10-28)
 
 
